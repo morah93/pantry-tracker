@@ -185,7 +185,7 @@ export default function Home() {
 								color={"#333"}
 								textAlign={"center"}
 							>
-								Quantity: {quantity}
+								{quantity}
 							</Typography>
 							<Button
 								variant='contained'
