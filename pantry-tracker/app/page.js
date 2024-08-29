@@ -7,6 +7,8 @@ import LandingPage from "./landingPage";
 // import kitchen from "../src/kitchen.jpg";
 import { useRef, useEffect } from "react";
 import Signup from "./sign-up/page";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/firestore';
 
 const style = {
 	position: "absolute",

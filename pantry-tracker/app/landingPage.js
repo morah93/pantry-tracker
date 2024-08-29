@@ -94,7 +94,9 @@
 import { useState, useEffect } from "react";
 // import LandingPage from "./landingPage";
 import "./globals.css";
-// import { useRef } from 'react';
+import firebase from 'firebase/compat/app';
+
+import 'firebase/compat/firestore';
 
 import {
 	Box,

@@ -26,10 +26,13 @@ const firebaseConfig = {
 // const app = initializeApp(firebaseConfig);
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 // const analytics = getAnalytics(app);
+
 const auth = getAuth(app);
 const firestore = getFirestore(app);
-// const auth = getAuth(firebaseApp);
+const db = firestore;
+
+// const auth = firebase.auth();
 // onAuthStateChanged(auth, user => { /* check status */ });
 // Initialize the FirebaseUI Widget using Firebase.
 // var ui = new firebaseui.auth.AuthUI(firebase.auth());
-export {auth, firestore, app};
+export {auth, firestore, app, db};

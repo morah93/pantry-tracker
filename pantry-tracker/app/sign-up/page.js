@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import './sign-up.css'; // Import the CSS file
 import { auth } from '@/firebase';
+import {firestore as db}  from '../../firebase'
+import firebase from '../../firebase';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 // import {firebaseConfig} from '../../firebase';
 // firebase.initializeApp(firebaseConfig);

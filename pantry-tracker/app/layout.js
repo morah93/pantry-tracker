@@ -3,6 +3,9 @@ import "./globals.css";
 import { firebaseConfig } from "../firebase";
 // import { FirebaseAppProvider } from "reactfire";
 import { initializeApp } from "firebase/app";
+import firebase from 'firebase/compat/app';
+
+import 'firebase/compat/firestore';
 
 const inter = Inter({ subsets: ["latin"] });
 
